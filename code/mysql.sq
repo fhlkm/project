@@ -1,0 +1,4 @@
+use MACHINELEARNING;
+
+CREATE TABLE USERSHORTINF (id mediumint NOT NULL AUTO_INCREMENT,PRIMARY KEY (id),name CHAR(30) not null,userid CHAR(20) not null,friendsnumber CHAR(20),features TEXT(20000));
+SELECT * FROM USERSHORTINF;
